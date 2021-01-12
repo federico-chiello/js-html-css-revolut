@@ -73,8 +73,9 @@ header .header-right ul li:last-child a{
 .dropdown-menu {
   position: absolute;
   top: 60px;
+
   background-color: white;
-  width: 180px;
+  width: 160px;
   display: none;
   flex-direction: column;
   justify-content: center;
