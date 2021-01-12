@@ -18,8 +18,12 @@
   float: left;
 }
 
-.clr-grey {
+.grey {
   color: #a8aeb4;
+}
+
+.black {
+  color: black;
 }
 
 
@@ -51,7 +55,7 @@ header .header-right ul li{
 header .header-left ul li a,
 header .header-right ul li a{
   text-decoration: none;
-  color: black;
+  color: #a8aeb4;
 }
 
 
@@ -78,6 +82,7 @@ header .header-right ul li:last-child a{
   align-items: center;
   box-shadow: 0 2px 5px rgba(23, 29, 2, 0.81);
 }
+
 
 .dropdown-menu.active{
   display: flex;
