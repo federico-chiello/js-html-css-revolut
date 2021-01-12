@@ -18,13 +18,18 @@
   float: left;
 }
 
+.clr-grey {
+  color: #a8aeb4;
+}
+
+
+
 /* Header */
 header {
   height: 80px;
   width: 100%;
   line-height: 80px;
   border-bottom: 1px solid black;
-  background-color: lightgreen;
 }
 
 header .header-left ul li img {
@@ -49,6 +54,7 @@ header .header-right ul li a{
   color: black;
 }
 
+
 header .header-right ul {
   display: flex;
 }
@@ -58,4 +64,21 @@ header .header-right ul li:last-child a{
   color: white;
   padding: 10px;
   border-radius: 20px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 435px;
+  background-color: white;
+  width: 100px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(23, 29, 2, 0.81);
+}
+
+.dropdown-menu.active{
+  display: flex;
 }
