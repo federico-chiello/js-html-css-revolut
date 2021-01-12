@@ -9,10 +9,40 @@
   max-height: 100vh;
 }
 
+/* classi ritulizzabili */
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
 header {
   height: 80px;
   width: 100%;
   line-height: 80px;
   border-bottom: 1px solid black;
   background-color: lightgreen;
+}
+
+
+header .header-left ul li img {
+  width: 150px;
+  padding-right: 30px;
+}
+
+header .header-left ul {
+  display: flex;
+  text-transform: uppercase;
+}
+
+header .header-left ul li{
+  padding-right: 30px;
+  list-style: none;
+}
+
+header .header-left ul li a{
+  text-decoration: none;
+  color: black;
 }
