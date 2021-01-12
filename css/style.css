@@ -73,17 +73,19 @@ header .header-right ul li:last-child a{
 .dropdown-menu {
   position: absolute;
   top: 60px;
-
+  /* right: 50%;
+  transform: translate(50%); */
   background-color: white;
-  width: 160px;
+  max-width: 280px;
+  min-width: 140px;
   display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   box-shadow: 0 2px 5px rgba(23, 29, 2, 0.81);
 }
 
 
 .dropdown-menu.active{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
