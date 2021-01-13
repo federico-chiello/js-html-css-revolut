@@ -9,4 +9,15 @@ $(document).ready(function(){
   $(".dropdown").mouseleave(function() {
     $(this).children('a').css('color', 'grey');
   });
+
+  // Ogni singolo elemento del menu si colora di rosso quando ci si passa con il mouse.
+  $('.menu-interno').mouseenter(function(){
+    $(this).children('a').css('color', 'red');
+  });
+
+  // Ogni singolo elemento del menu si colora di grigio quando ci si allontana con il mouse.
+  $(".menu-interno").mouseleave(function() {
+    $(this).children('a').css('color', 'grey');
+  });
+
 });

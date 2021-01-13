@@ -10,6 +10,12 @@
 }
 
 /* classi ritulizzabili */
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .float-right {
   float: right;
 }
@@ -32,14 +38,15 @@ header .header-left ul li img {
   padding-right: 30px;
 }
 
-header .header-left ul {
+header .header-left ul{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   text-transform: uppercase;
 }
 
 header .header-left ul li,
 header .header-right ul li{
-  padding-right: 30px;
   list-style: none;
 }
 
@@ -49,8 +56,10 @@ header .header-right ul li a{
   color: grey;
 }
 
-header .header-right ul {
+header .header-right ul{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 header .header-right ul li:last-child a{
