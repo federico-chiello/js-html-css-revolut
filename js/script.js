@@ -20,4 +20,13 @@ $(document).ready(function(){
     $(this).children('a').css('color', 'grey');
   });
 
+  // La freccia accanto a IT cambia se passo con il mouse.
+  $('.it').hover(function(){
+    $(this).children('a').html('<a href="#" id="it">IT <i class="fas fa-chevron-up"></i></a>');
+  });
+
+  $(".it").mouseleave(function(){
+    $(this).children('a').html('<a href="#" id="it">IT <i class="fas fa-chevron-down"></i></a>');
+  });
+
 });
