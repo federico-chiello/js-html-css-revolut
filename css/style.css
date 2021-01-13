@@ -48,6 +48,7 @@ header .header-left ul{
 header .header-left ul li,
 header .header-right ul li{
   list-style: none;
+  margin: 0 10px;
 }
 
 header .header-left ul li a,
